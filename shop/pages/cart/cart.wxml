@@ -1,0 +1,5 @@
+<!--pages/cart/cart.wxml-->
+<button type="primary" bindtap="toIndex">回到主页</button>  
+<navigator url="/pages/index/index">
+  <button type="warn" >回到主页</button>
+</navigator>

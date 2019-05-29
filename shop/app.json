@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f5b223",
+    "navigationBarTitleText": "立国shop",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "/pages/images/history_default.jpg",
+        "selectedIconPath": "/pages/images/history_select.jpg"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/pages/images/cart_default.jpg",
+        "selectedIconPath": "/pages/images/cart_select.jpg"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "/pages/images/mine_default.jpg",
+        "selectedIconPath": "/pages/images/mine_select.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap15.json"
+}
